@@ -273,7 +273,7 @@ export default function App() {
 
           <div className="relative z-10 w-full px-8 md:px-16 lg:px-24 text-left text-white mb-20 md:mb-32">
             <h1 className="text-6xl md:text-[90px] lg:text-[110px] font-extrabold tracking-tighter drop-shadow-xl" style={{ fontFamily: "'Nunito', 'Varela Round', 'Inter', sans-serif" }}>
-              CHOTU BOT
+              KUTTY BOT
             </h1>
             <p className="mt-2 md:mt-4 text-xl md:text-2xl lg:text-3xl text-white/95 font-medium tracking-wide drop-shadow-md">
               Your Tiny Desk Companion

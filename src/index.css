@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Nunito", "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-nunito: "Nunito", sans-serif;
+  --color-vibrant-navy: #1A1C2E;
+  --color-vibrant-coral: #FF6B6B;
+  --color-vibrant-orange: #FF8E53;
+  --color-vibrant-indigo: #4E5ACD;
+  --color-vibrant-bg: #F8FAFF;
+}
+
+/* Custom overlay or scrollbar enhancements */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(148, 163, 184, 0.3);
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(148, 163, 184, 0.5);
+}
+
+.overflow-hidden-override {
+  transition: max-height 0.35s cubic-bezier(0.4, 0, 0.2, 1), padding 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+}
